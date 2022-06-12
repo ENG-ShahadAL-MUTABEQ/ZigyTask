@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787569416516",
+    "project_id": "zigy-c7118",
+    "storage_bucket": "zigy-c7118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787569416516:android:0c09981ab3880cdf07df11",
+        "android_client_info": {
+          "package_name": "com.example.zigy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787569416516-a2ev5d016p2k1tmi0g8ghp3bpajsq0pt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYmQxw029nHS5xQUpizzI6EHtu5_Ou-no"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787569416516-a2ev5d016p2k1tmi0g8ghp3bpajsq0pt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
