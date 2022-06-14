@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:zigy/app.dart';
-import 'images_slider.dart';
+import 'package:zigy/screens/app.dart';
+import 'navigation_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const Center(child: (CircularProgressIndicator()));
               } else if (snapshot.hasData) {
-                return const ImagesSliderPage();
+                return const NavigationBottomBar();
               } else if (snapshot.hasError) {
                 return const Center(
                   child: Text('Something Wrong!!'),

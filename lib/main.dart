@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
-import 'package:zigy/app.dart';
 import 'package:zigy/google_singn_in.dart';
-import 'package:zigy/home.dart';
+import 'package:zigy/guide.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -19,9 +19,6 @@ class _ImagesSliderPageState extends State<ImagesSliderPage> {
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser!;
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.purpleAccent,
-      ),
       body: Center(
         child: CarouselSlider(
           options: CarouselOptions(
